@@ -1,0 +1,239 @@
+/*color*/
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+}
+@font-face {
+  font-family: 'P22 Underground CY Pro Medium';
+  src: url('../fonts/P22UndergroundCYPro-Medium.eot');
+  src: url('../fonts/P22UndergroundCYPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Medium.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Medium.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Medium.svg#P22UndergroundCYPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22 Underground CY Pro Book';
+  src: url('../fonts/P22UndergroundCYPro-Book.eot');
+  src: url('../fonts/P22UndergroundCYPro-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Book.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Book.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Book.svg#P22UndergroundCYPro-Book') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22 Underground CY Pro Thin';
+  src: url('../fonts/P22UndergroundCYPro-Thin.eot');
+  src: url('../fonts/P22UndergroundCYPro-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Thin.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Thin.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Thin.svg#P22UndergroundCYPro-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22 Underground CY Pro Demi';
+  src: url('../fonts/P22UndergroundCYPro-Demi.eot');
+  src: url('../fonts/P22UndergroundCYPro-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Demi.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Demi.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Demi.svg#P22UndergroundCYPro-Demi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22 Underground CY Pro Heavy';
+  src: url('../fonts/P22UndergroundCYPro-Heavy.eot');
+  src: url('../fonts/P22UndergroundCYPro-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Heavy.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Heavy.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Heavy.svg#P22UndergroundCYPro-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+.first_ekr {
+  background: url(../img/main_bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.header_row {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo_text {
+  font-family: 'P22 Underground CY Pro Thin';
+  font-size: 20px;
+  line-height: 1px;
+}
+.logo_text p {
+  font-family: 'P22 Underground CY Pro Demi';
+  font-size: 25px;
+}
+.phone_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-transform: lowercase;
+  font-family: 'P22 Underground CY Pro Heavy';
+  font-size: 15px;
+  width: 161px;
+}
+.slogan {
+  font-family: 'P22 Underground CY Pro Heavy';
+  font-size: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffff33;
+  text-transform: uppercase;
+  line-height: 5px;
+}
+.phone {
+  font-family: 'P22 Underground CY Pro Medium';
+  font-size: 25px;
+}
+.row_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 47%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1.5rem auto;
+  /*min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
+}
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 8rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*margin-right: 1rem;*/
+  /*padding-right: 1rem;*/
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.item:not(:nth-child(4n)) {
+  margin-right: 1.333333%;
+}
+.item-child {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.item_text {
+  color: #333333;
+  font-family: 'P22 Underground CY Pro Book';
+  font-size: 0.7rem;
+  width: 9.3rem;
+}
+.item1 {
+  background: url(../img/icon1.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item2 {
+  background: url(../img/icon2.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item3 {
+  background: url(../img/icon3.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item4 {
+  background: url(../img/icon4.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item5 {
+  background: url(../img/icon5.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item6 {
+  background: url(../img/icon6.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item7 {
+  background: url(../img/icon7.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item8 {
+  background: url(../img/icon8.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item9 {
+  background: url(../img/icon9.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.item10 {
+  background: url(../img/icon10.svg) no-repeat center center;
+  background-color: #ffff33;
+}
+.form {
+  height: 410px;
+  width: 420px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.form p {
+  font-family: 'P22 Underground CY Pro Book';
+  width: 6rem;
+  height: 5rem;
+}
+input {
+  background-color: #000000;
+  width: 10rem;
+  height: 1.8rem;
+  margin: 1rem auto;
+  border: 1px solid #e0e0e0;
+  display: block;
+  font-family: 'P22 Underground CY Pro Book';
+  font-size: 0.7rem;
+}
+input .user {
+  background: url('../img/user.png');
+  width: 100%;
+}
+input.password {
+  background-image: url('../img/user.png');
+  background-repeat: no-repeat;
+  background-position: 0px center;
+}
+.money {
+  padding-bottom: -20px;
+  text-align: center;
+}
